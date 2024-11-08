@@ -46,7 +46,7 @@
     margin-right: 0; 
     width:45%;
     padding:10px;
-    
+  
     align-self: center;
     align-items: center;
     justify-content: center;
@@ -57,6 +57,7 @@
  
   input{
     padding: 5px;
+    
   }
 
  
@@ -66,12 +67,16 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    background-color: whitesmoke;
+    
 
   }
   label{
     align-self: flex-start;
+    
   }
   label,input{
+
     margin:5px;
   }
 
@@ -95,6 +100,7 @@
 
   margin-bottom: 5px;
   font-weight: bold;
+
   color: white;
 }
 
@@ -107,7 +113,10 @@
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 14px;
-  background-color: lightgray;
+    background-color: whitesmoke;
+}
+.inputs input{
+  color: darkslategrey;
 }
 
 .inputs textarea {
